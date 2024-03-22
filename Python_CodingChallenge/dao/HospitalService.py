@@ -1,6 +1,7 @@
 from entity.Appointment import Appointment
 from util.DBConnection import DBConnection
 from exception.Exception import PatientNumberNotFoundException,AppointmentNotFoundException
+from dao.IHospitalService import IHospitalService
 
 class HospitalServiceImpl(IHospitalService):
 
